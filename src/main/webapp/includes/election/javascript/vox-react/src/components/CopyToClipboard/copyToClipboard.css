@@ -1,0 +1,29 @@
+.vox-copy-paste {
+    display: flex;
+    align-items: center;
+    background: var(--background-alt-grey);
+    padding: 0.5rem 1rem;
+    position: relative;
+}
+
+.vox-copy-paste .content {
+    flex-grow: 1;
+    word-break: break-all;
+}
+
+.vox-copy-paste .success-copy {
+    position: absolute;
+    top: -1px;
+    right: 0;
+    transform: translateY(-100%);
+    color: var(--text-default-success);
+    background: var(--background-contrast-success);
+    padding: 0.25rem 0.5rem;
+    font-weight: bold;
+}
+
+.vox-avis-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
